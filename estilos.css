@@ -1,0 +1,169 @@
+body{
+    /*background:#222;*/
+    /*background: url(fondo_estadio.jpg);*/
+	background: white;
+	color: #EEE;
+	font-family: Arial;
+	font-size: 16px; 
+	text-align: center;
+}
+#definiciones{
+	text-align: left;
+	color:rgba(0,0,0,0.5);
+}
+#imgprincipal{
+
+	width: 100%;
+	margin-bottom: 55px;
+}
+
+nav ul{
+	background-color: rgba(0,0,0,0.7);
+	list-style-type: none;
+	padding: 0.5em;
+	border-radius: 1em;
+
+}
+nav ul li
+{
+	display: inline-block;
+
+
+}
+nav ul li a{
+	border-radius: 6px;
+	padding: 0 35;
+	text-align: center;
+}
+nav ul li a:hover{
+
+	background:rgba(6,86,159,1);
+	-webkit-transform:scale(1.2) rotate(5deg);
+		
+}
+.cajaprincipal{
+	background: #F6F6F6;
+	border: #aaa 1px solid;
+	border-top:rgb(175,153,79) 1px solid;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 1em;
+	width: 70%;
+
+
+}
+#contenedorestadio{
+
+	background-color: rgba(255, 255, 255,1);
+	margin: 0 auto;
+	width: 100%;
+	display: block;
+	
+
+}
+#contenedorestadio h2{
+	color:rgb(174,153,78)
+}
+}
+#contenedorestadio 	#contenerdorimagen{
+
+	display: block;
+	margin: 0;
+	/*width: 940px;
+	height: 400px;*/
+	width: 100%;
+}
+
+.contenido{
+	display: inline-block;	
+	vertical-align: top;
+}
+
+.detalle{
+
+	/*background-color: green;*/
+	color: rgb(115,115,115);
+	font-size: 0.8em;
+	text-align: left;
+	/*width: 462px;
+	height: 163px;*/
+	width:  84%; 
+
+	
+	
+}
+.detalle h3{
+	font-style: italic;
+}
+.dates{
+	/*background-color: yellow;*/
+	display: block;
+	font-size: 0.9em;
+	width: 100%
+}
+header{
+	background:url(img/header_logo.png) no-repeat 5% 12%;
+	background-size:  250px;
+	color:rgba(0,0,0,0.5);
+	/*color:rgba(255,255,255,0.5);*/
+	font-size: 25px;
+	margin: 0;
+	padding: 0.2em 0; 	
+	width: 100%;
+	text-align: center;
+}
+.imagen{
+	margin:0;
+	padding: 0;
+	width: 23%;
+	/*background-color: green;*/
+
+}
+.imagen img{
+	
+	width: 100%;
+}
+
+.imagen , .informacion{	
+	display:  inline-block;
+	vertical-align: top;
+}
+.informacion{
+	/*background-color: blue;*/
+    width: 76%;
+
+}
+
+.item a{
+    
+	color: #fff;
+	display:block;
+	font-size: 22px;
+	text-decoration: none;
+	width: 130px;
+
+}
+
+.numero{
+	
+	/*background-color: white;*/
+	font-size: 3em;
+	color:rgb(174,153,78);
+	display: block;
+	width: 15%;
+
+}
+
+.numero , .detalle{
+	display: inline-block;
+	vertical-align: top;
+}
+
+#patrocinadores{
+	color:rgb(174,153,78); font-size: 2em;
+
+}
+#patrocinadores span{
+	display: block;
+	margin-bottom:50px;
+}
